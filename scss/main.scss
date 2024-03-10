@@ -1,0 +1,24 @@
+//base
+
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+@import './base/mixins';
+
+// blocks
+
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/socials';
+@import './blocks/btn';
+@import './blocks/promo';
+@import './blocks/accent';
+@import './blocks/marquee';
+@import './blocks/staff';
+@import './blocks/our-work';
+@import './blocks/specialists';
+@import './blocks/banner';
+@import './blocks/collections';
+@import './blocks/top-nft';
+@import './blocks/faq';
+@import './blocks/footer';

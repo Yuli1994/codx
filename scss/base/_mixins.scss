@@ -1,0 +1,35 @@
+@mixin promo-person {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    user-select: none;
+    backdrop-filter: blur(25px);
+    border-radius: 30px;
+    align-items: center;
+}
+
+@mixin top-nft-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+
+    @media screen and (max-width: $breakpoints-lg) {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+@mixin accordion_line {
+    display: block;
+    width: 14px;
+    height: 3px;
+    position: absolute;
+    background-color: #79AF98;
+    border-radius: 20px;
+    top: 50%;
+}
